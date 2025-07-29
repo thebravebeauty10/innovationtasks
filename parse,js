@@ -1,0 +1,13 @@
+function greet(name) {
+    console.log("Hello " + name);
+}
+greet("Mounika");
+
+function sumAll(...nums) {
+    let total = 0;
+    for (let num of nums) {
+        total += num;
+    }
+    console.log(total);
+}
+sumAll(1, 2, 3, 4, 5);
